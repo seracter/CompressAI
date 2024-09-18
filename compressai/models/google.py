@@ -729,3 +729,5 @@ class JointAutoregressiveHierarchicalPriors(MeanScaleHyperprior):
                 hp = h + padding
                 wp = w + padding
                 y_hat[:, :, hp : hp + 1, wp : wp + 1] = rv
+
+#测试GitHub添加代码
